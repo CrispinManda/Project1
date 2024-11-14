@@ -6,11 +6,35 @@ table{
     width: 900px;
 }
 
-ul,li{
+/* ul,li{
     gap: 70px;
     
 }
 
 li{
+    list-style: none;
+} */
+
+.navbar{
+    background-color: rgb(231, 222, 222); 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar span ul{
+   display: flex;
+   gap: 20px;
+}
+
+.navbar span ul li{
+  list-style: none;
+  
+}
+.navbar span ul li a{
     text-decoration: none;
+}
+
+.links{
+    margin-left: 900px;
 }
